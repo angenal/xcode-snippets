@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>btn</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// &lt;#圆角按钮#&gt;
+UIButton *&lt;#button#&gt; = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+&lt;#button#&gt;.frame = CGRectMake(&lt;#x#&gt;, &lt;#y#&gt;, &lt;#width#&gt;, &lt;#height#&gt;);
+&lt;#button#&gt;.tag = &lt;#1#&gt;;
+&lt;#button#&gt;.layer.cornerRadius = &lt;#4#&gt;;
+&lt;#button#&gt;.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"&lt;#文件名#&gt;"]];
+[&lt;#button#&gt; setTitle:@"&lt;#文本#&gt;" forState:UIControlStateNormal];
+[&lt;#button#&gt; setTitleColor:[UIColor &lt;#blackColor#&gt;] forState:UIControlStateNormal];
+[&lt;#button#&gt;.titleLabel setFont:[UIFont fontWithName:@"Courier" size:&lt;#15#&gt;]];
+[&lt;#button#&gt; addTarget:self action:@selector(&lt;#buttonClick:#&gt;) forControlEvents:UIControlEventTouchUpInside];
+[self.view addSubview:&lt;#button#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4AB32D13-6CEC-4A3C-B9B4-5A038246B6B3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIButton</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>圆角按钮btn</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

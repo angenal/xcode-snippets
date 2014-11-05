@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lbl</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// &lt;#多行文本#&gt;
+UILabel *&lt;#label#&gt; = [[UILabel alloc]initWithFrame:CGRectMake(&lt;#x#&gt;, &lt;#y#&gt;, &lt;#width#&gt;, &lt;#height#&gt;)];
+&lt;#label#&gt;.tag = &lt;#1#&gt;;
+&lt;#label#&gt;.backgroundColor = [UIColor &lt;#whiteColor#&gt;];
+&lt;#label#&gt;.textAlignment = NSText&lt;#AlignmentCenter#&gt;;
+&lt;#label#&gt;.textColor = [UIColor &lt;#blackColor#&gt;];
+&lt;#label#&gt;.font = [UIFont systemFontOfSize:&lt;#15#&gt;];
+&lt;#label#&gt;.text = [NSString stringWithFormat:@"%@", @"&lt;#文本#&gt;"];
+// 阴影
+&lt;#label#&gt;.shadowColor = [UIColor &lt;#blackColor#&gt;];
+&lt;#label#&gt;.shadowOffset = CGSizeMake(&lt;#width#&gt;, &lt;#height#&gt;);
+// 多行
+&lt;#label#&gt;.numberOfLines = 0;
+&lt;#label#&gt;.lineBreakMode = NSLineBreakByWordWrapping;
+&lt;#label#&gt;.adjustsFontSizeToFitWidth = YES;
+// 高亮
+&lt;#label#&gt;.highlighted = YES;
+&lt;#label#&gt;.highlightedTextColor = [UIColor &lt;#blackColor#&gt;];
+[self.view addSubview:&lt;#label#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>893AE3F7-189E-4A7D-B6F2-F6D885B92554</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UILabel</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>多行文本带阴影等lbl</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
